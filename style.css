@@ -1,0 +1,93 @@
+/* Đặt lại một số thuộc tính mặc định */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Căn giữa văn bản và nội dung con */
+}
+
+/* Container chính */
+.container, .container1, .container2, .container3, .container4 {
+    max-width: 600px; /* Giảm kích thước từ 800px xuống 600px */
+    margin: 10px auto;
+    padding: 10px; /* Giảm padding xuống 10px */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Giảm bóng đổ */
+}
+
+/* Tiêu đề */
+h1, h2 {
+    color: #333;
+    text-align: center;
+    font-size: 20px; /* Giảm cỡ chữ tiêu đề */
+}
+
+/* Màu sắc cho các tiêu đề phụ */
+.control {
+    margin: 10px 0; /* Giảm khoảng cách */
+    padding: 6px; /* Giảm padding */
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+/* Các thiết bị */
+.device, .device2, .device1 {
+    display: inline-block;
+    width: 45%; /* Giảm độ rộng của mỗi thiết bị xuống 45% */
+    margin: 1%; /* Giảm khoảng cách giữa các thiết bị */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 6px; /* Giảm padding */
+    background-color: #fafafa;
+    transition: transform 0.3s;
+}
+
+/* Hình ảnh của thiết bị */
+.device img {
+    width: 60%; /* Giảm kích thước hình ảnh xuống 60% */
+    height: auto;
+}
+
+/* Nút điều khiển */
+button {
+    padding: 6px 10px; /* Giảm kích thước nút */
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px; /* Giảm cỡ chữ */
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Cải thiện phần văn bản */
+p {
+    color: #555;
+    font-size: 14px; /* Giảm cỡ chữ văn bản */
+}
+
+/* Đặt độ rộng cho các mục nhập */
+input[type="time"] {
+    padding: 6px; /* Giảm padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70%; /* Giảm độ rộng */
+    margin: 5px 0;
+}
+
+/* Cải thiện hiển thị trạng thái */
+#deviceStatus_1, #deviceStatus {
+    font-weight: bold;
+    color: rgb(57, 165, 57);
+    text-align: center;
+    font-size: 14px; /* Giảm cỡ chữ */
+}
+

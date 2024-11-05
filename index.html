@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DO AN 2 </title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+		<!-- bố cục 1 -->
+		<div class="container">
+			
+				
+					<img src="img/logo.png" alt="logo" width="300px" height="400px">
+
+					<h1 style="margin: 100px; color: red;">ĐIỀU KHIỂN GIÁM SÁT MÔ HÌNH CHĂN NUÔI GÀ CÔNG NGHIỆP</h1>
+                    <p style= "text-align:right;color: black;font-weight: bold;">GVHD: TS.TRƯƠNG QUANG PHÚC</p>
+                    <p style= "text-align:right;color: black;font-weight: bold;">SVTH: NGUYỄN HOÀNG SANG - 23661015</p>
+                    <p style= "text-align:right;color: black;font-weight: bold;">SVTH: NGUYỄN XUÂN THÔNG - 23661015</p>
+
+		</div>
+		<!-- Phần điều khiển sưởi ấm và làm mát -->
+        <div class="control">
+            <h2>SƯỞI ẨM-LÀM MÁT:</h2>
+        </div>
+			<!-- bố cục 2 -->
+		<div class="container1">
+           
+			<div class="row"> <!-- ROW 01 -->
+				<div class="device">
+					<img id="d01_img" src="img/den_off.png" alt="img" style="width:50%">
+					<p>ĐÈN SƯỞI ẤM</p>
+					<div>
+						<button id="d01_on">ON</button>
+						<button id="d01_off">OFF</button>
+					</div>									
+				</div>
+				<div class="device">
+					<img id="q01_img" src="img/quat_off.png" alt="img" style="width:50%">
+					<p>QUẠT LÀM MÁT</p>
+					<div>
+						<button id="q01_on">ON</button>
+						<button id="q01_off">OFF</button>
+					</div>									
+				</div>
+                <div class="device">
+					<p style="color: rgb(28, 133, 219);"> NHIỆT ĐỘ:   <span style="color: red;" id="nhietdo">NONE</span> °C </p>
+					<p style="color: rgb(28, 133, 219);"> ĐỘ ẨM:   <span style="color: red;" id="doam">NONE</span> % </p>									
+				</div>
+				
+			</div>
+			<div class="device-a">
+				<p style="color: green;font-weight: bold;" id="autoMessage"></p> 
+	
+			</div>
+		</div>
+		
+        <div class="control">
+            <h2>CHIẾU SÁNG:</h2>
+        </div>
+
+        	 <!-- Đặt lịch chiếu sáng -->
+		<div class="container2">
+           
+			<div class="row"> <!-- ROW 01 -->
+				<div class="device2">
+					<img id="d02_img" src="img/den_off.png" alt="img" style="width:30%">
+					<p>ĐÈN CHIẾU SÁNG</p>
+					<div>
+						<button id="d02_on">ON</button>
+						<button id="d02_off">OFF</button>
+					</div>									
+				</div>										
+			</div>
+			<div class="row">
+				  <!-- Lặp qua các ngày trong tuần -->
+				              															
+				<div class="device2">
+					<p>Thứ 2</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt2on">Bật:</label>
+							<input type="time" id="tt2on">
+						</div>
+						<div>
+							<label for="tt2off">Tắt:</label>
+							<input type="time" id="tt2off">
+						</div>
+					</div>
+				</div>
+
+				<div class="device2">
+					<p>Thứ 3</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt3on">Bật:</label>
+							<input type="time" id="tt3on">
+						</div>
+						<div>
+							<label for="tt3off">Tắt:</label>
+							<input type="time" id="tt3off">
+						</div>
+					</div>
+				</div>
+
+				<div class="device2">
+					<p>Thứ 4</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt4on">Bật:</label>
+							<input type="time" id="tt4on">
+						</div>
+						<div>
+							<label for="tt4off">Tắt:</label>
+							<input type="time" id="tt4off">
+						</div>
+					</div>
+				</div>
+
+				<div class="device2">
+					<p>Thứ 5</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt5on">Bật:</label>
+							<input type="time" id="tt5on">
+						</div>
+						<div>
+							<label for="tt5off">Tắt:</label>
+							<input type="time" id="tt5off">
+						</div>
+					</div>
+				</div>
+				<div class="device2">
+					<p>Thứ 6</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt6on">Bật:</label>
+							<input type="time" id="tt6on">
+						</div>
+						<div>
+							<label for="tt6off">Tắt:</label>
+							<input type="time" id="tt6off">
+						</div>
+					</div>
+				</div>
+				<div class="device2">
+					<p>Thứ 7</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt7on">Bật:</label>
+							<input type="time" id="tt7on">
+						</div>
+						<div>
+							<label for="tt7off">Tắt:</label>
+							<input type="time" id="tt7off">
+						</div>
+					</div>
+				</div>
+				<div class="device2">
+					<p>Chủ Nhật</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="tt8on">Bật:</label>
+							<input type="time" id="tt8on">
+						</div>
+						<div>
+							<label for="tt8off">Tắt:</label>
+							<input type="time" id="tt8off">
+						</div>
+					</div>
+				</div>	            																			
+				<div id="thietlap">
+					<p id="tb"><button onclick="setWeeklyTimers_1()">BẮT ĐẦU HẸN GIỜ</button></p>
+					<P ID="tb"><button id="cancelScheduleButton">HỦY HẸN GIỜ</button></P>
+					<h2>Trạng thái hiện tại:</h2>
+					 <p id="deviceStatus_1">Đang lấy thông tin...</p>
+				</div>
+			</div>
+		</div>
+		
+	
+
+        <div class="control">
+            <h2>THỨC ĂN:</h2>
+        </div>
+	
+		<div class="container3">
+           
+			<div class="row"> <!-- ROW 01 -->
+				<div class="device2">
+					<img id="g01_img" src="img/an_off.png" alt="img" style="width:30%">
+					<p>CHO GÀ ĂN</p>
+					<div>
+						<button id="g01_on">ON</button>
+						<button id="g01_off">OFF</button>
+					</div>									
+				</div>										
+			</div>
+			<div class="row"> <!-- ROW 01 -->
+				<div class="device2">
+					<p>Thứ 2</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t2on">Bật:</label>
+							<input type="time" id="t2on">
+						</div>
+						<div>
+							<label for="t2off">Tắt:</label>
+							<input type="time" id="t2off">
+						</div>
+					</div>
+				</div>             															
+				
+				<div class="device2">
+					<p>Thứ 3</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t3on">Bật:</label>
+							<input type="time" id="t3on">
+						</div>
+						<div>
+							<label for="t3off">Tắt:</label>
+							<input type="time" id="t3off">
+						</div>
+					</div>
+				</div>
+				
+				<div class="device2">
+					<p>Thứ 4</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t4on">Bật:</label>
+							<input type="time" id="t4on">
+						</div>
+						<div>
+							<label for="t4off">Tắt:</label>
+							<input type="time" id="t4off">
+						</div>
+					</div>
+				</div>   
+
+				<div class="device2">
+					<p>Thứ 5</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t5on">Bật:</label>
+							<input type="time" id="t5on">
+						</div>
+						<div>
+							<label for="t5off">Tắt:</label>
+							<input type="time" id="t5off">
+						</div>
+					</div>
+				</div>  
+				
+				<div class="device2">
+					<p>Thứ 6</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t6on">Bật:</label>
+							<input type="time" id="t6on">
+						</div>
+						<div>
+							<label for="t6off">Tắt:</label>
+							<input type="time" id="t6off">
+						</div>
+					</div>
+				</div> 
+				
+				<div class="device2">
+					<p>Thứ 7</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t7on">Bật:</label>
+							<input type="time" id="t7on">
+						</div>
+						<div>
+							<label for="t7off">Tắt:</label>
+							<input type="time" id="t7off">
+						</div>
+					</div>
+				</div> 
+				
+				<div class="device2">
+					<p>Chủ Nhật</p>
+					<div style="display: flex; gap: 5px;">
+						<div>
+							<label for="t8on">Bật:</label>
+							<input type="time" id="t8on">
+						</div>
+						<div>
+							<label for="t8off">Tắt:</label>
+							<input type="time" id="t8off">
+						</div>
+					</div>
+				</div>   
+																			
+			</div>
+			<div id="thietlap">
+				<p id="tb"><button onclick="setWeeklyTimers()">Thiết lập hẹn giờ</button></p>
+				<P ID="tb"><button id="cancelScheduleButton1">HỦY HẸN GIỜ</button></P>
+			</div>
+			<h2>Trạng thái hiện tại:</h2>
+			 <p id="deviceStatus">Đang lấy thông tin...</p>
+		</div>
+		
+		
+
+		</div>
+		
+
+        <div class="control">
+            <h2>CHẤT LƯỢNG KHÔNG KHÍ:</h2>
+        </div>
+			<!-- bố cục 2 -->
+		<div class="container4">
+			<div class="row"> <!-- ROW 01 -->
+
+				<div class="device">
+					<img id="q02_img" src="img/quat_off.png" alt="img" style="width:50%">
+					<p>QUẠT HÚT </p>
+					<div>
+						<button id="q02_on">ON</button>
+						<button id="q02_off">OFF</button>
+					</div>	
+												
+				</div>
+                <div class="device">
+					<p style="color: rgb(28, 133, 219);"> KHÔNG KHÍ:   <span style="color: red;" id="khongkhi">None</span> AQI</p>
+								
+				</div>	
+				
+			</div>
+	
+			
+		</div>
+
+		<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script> 
+		<script src="control.js"></script>
+		<script src="control1.js"></script>
+		<script src="control2.js"></script>
+		<script src="control3.js"></script>
+
+	</body>	
+
+</html>
